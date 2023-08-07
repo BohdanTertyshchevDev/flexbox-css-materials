@@ -21,7 +21,7 @@ header{
 
 header .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 header .menu a{
@@ -36,9 +36,37 @@ header .menu a{
     border-radius: 8px;
     color: #fefcfc;
     box-shadow: 0 0 10px -1px #000;
+    margin-left: 15px;
 }
 
 header .menu a:hover{
     box-shadow: none;
     background: #e44d26;
+}
+
+.section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+    justify-content: center;
+}
+
+.section div {
+    margin: 0 15px;
+}
+
+.red {
+    background-color: red;
+    width: 300px;
+}
+
+.blue {
+    background-color: blue;
+    width: 600px;
+}
+
+.green {
+    background-color: green;
+    width: 300px;
 }
